@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         aboutMeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Ziting Wang, wang.zitin@northeastern.edu", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Name: Ziting Wang\nEmail: wang.zitin@northeastern.edu", Toast.LENGTH_SHORT).show();
             }
         });
 
